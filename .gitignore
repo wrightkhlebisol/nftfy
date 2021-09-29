@@ -1,5 +1,11 @@
-# folders
+#folders
 node_modules
 
-# files
+#files
 ipfs_hashes.txt
+node_modules
+.env
+
+#Hardhat files
+cache
+artifacts
