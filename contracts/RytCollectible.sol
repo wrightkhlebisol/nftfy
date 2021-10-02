@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: Unlicensed
-pragma solidity ^0.8.4;
+pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 contract RytCollectible is ERC721URIStorage{
 
     string NAME = "Ryt Collectibles";
-    string SYMBOL = "ABS";
+    string SYMBOL = "RYT";
     uint256 private _tokenId = 1;
 
     // marks an item as available for minting
